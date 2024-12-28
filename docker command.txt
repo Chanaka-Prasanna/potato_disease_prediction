@@ -1,0 +1,7 @@
+docker run -it -v "D:\ML\code basics\potato_disease:/potato_disease" tensorflow/serving --rest_api_port=8501 --model_config_file="/potato_disease/models.config"
+
+
+Take active images on docker - docker ps   -------> thrn take image ids 
+
+if wants to stop, run docker stop d8926fb98af5 8b765009fa88
+can add more ids as above
